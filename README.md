@@ -14,7 +14,7 @@ Provision Kubernetes cluster on VirtualBox using Vagrant and Ansible. It uses Ca
 ```
 - SSH into `k8s-master` and [export kubeconfig](https://stackoverflow.com/questions/61829214/how-to-export-kubeconfig-file-from-existing-cluster)
 ```
-    $ vagrant ssh
+    $ vagrant ssh k8s-master
 ```
 
 ## Limitations
